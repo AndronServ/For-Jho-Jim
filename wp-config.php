@@ -32,7 +32,7 @@ define('DB_PASSWORD', 'roofing');
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'SP ]=bg*W ?NXvYX-w2+Vx{Ng~F^>qA.[Z]-h&i8tzor}`:RRX)G]>/G*-Fl/Se^');
+define('SECURE_AUTH_KEY',  '5*aiW]5M/|}HT=6t^@-/x>nd&6-Uz*7eNJL/]vUyzv:tl15Z~l`_HAaX8O]YbYr*');
+define('LOGGED_IN_KEY',    '3zs^10,QgdPpdbb%n>X:tcvAI~cD.0NsZ[pLXzb# pDP@[u`*YMne:??#%ZhLgn)');
+define('NONCE_KEY',        'pa1f+u)0d#+O&KDZ6hUygG!<*m]^QeuX/^!@N2gtSLZx-Mzc$UC|=C%|(OfHM4Mv');
+define('AUTH_SALT',        '^i=[=pr$,%I*O[Dpv*HBU/i!Os}FA,)H@=jbW)WVnm-D[un_KZD+J`sS=%%RSqh:');
+define('SECURE_AUTH_SALT', '(ND~|WK v6%!+h9~:2d?1>*7Qw(HfD!cO^94-2aXc<,lMkc2OL0~*Sp|fQrC$@j^');
+define('LOGGED_IN_SALT',   ' cAe|spK9o.TT<6Gpt(s vF%%rjXB(}CRC%RcS7*F,n4+#PnGMa{2/}b=j LM(j-');
+define('NONCE_SALT',       '=cV`sUkn~Vh=p5$Ici`ZB)AX~[|[_Fcj8YG?g25RuA,FF*c1$20C$cg5@1WHyYmW');
 
 /**#@-*/
 
@@ -83,7 +83,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
